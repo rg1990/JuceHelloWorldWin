@@ -22,6 +22,8 @@ private:
     //==============================================================================
     // Your private member variables go here...
 
+    // Declare a new member variable for the toggle button we are adding
+    juce::ToggleButton toggleButton;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
